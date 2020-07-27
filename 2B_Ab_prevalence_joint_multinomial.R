@@ -113,4 +113,4 @@ mcmc_trace(fit_Stan_joint_multinomial) + theme_bw()
 color_scheme_set("brightblue")
 mcmc_pairs(fit_Stan_joint_multinomial, pars=c("prev", "logit_Se_Abbott", "logit_Se_ELISA", "logit_Sp_Abbott", "logit_Sp_ELISA", "p_sample[1]", "p_sample[2]", "p_sample[3]", "p_sample[4]"))
 
-save(fit_Stan_joint_multinomial, file="2B.RData")
+#save(fit_Stan_joint_multinomial, file="2B.RData")
