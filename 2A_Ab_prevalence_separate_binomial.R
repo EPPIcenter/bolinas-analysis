@@ -109,4 +109,4 @@ mcmc_trace(fit_Stan_separate_binomial) + theme_bw()
 color_scheme_set("brightblue")
 mcmc_pairs(fit_Stan_separate_binomial, pars=c("prev_Abbott", "prev_ELISA", "Se_Abbott", "Se_ELISA", "Sp_Abbott", "Sp_ELISA"))
 
-save(fit_Stan_separate_binomial, file="03b.RData")
+#save(fit_Stan_separate_binomial, file="2A.RData")
